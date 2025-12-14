@@ -1,3 +1,19 @@
+.cart-container {
+  padding: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.quantity-input {
+  margin-left: 10px;
+  width: 50px;
+}
+
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { updateQuantity, removeItem } from "./redux/CartSlice";
