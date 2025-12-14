@@ -1,0 +1,5 @@
+body {
+  background-image: url('./images/bg.jpg'); /* Add this image */
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
